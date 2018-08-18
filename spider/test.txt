@@ -1,0 +1,11 @@
+git add test.txt.
+git commit -m 'change message'
+git reset  -hard HEAD^
+git reser  -hard HEAD~100
+git log
+git log --pretty=oneline
+git diff
+git diff HEAD -- <file>
+git status
+git checkout -- <file>
+git reset HEAD <file>
